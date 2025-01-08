@@ -18,7 +18,7 @@
     "description": {
       "type": "text",
       "minLength": 10,
-      "maxLength": 200
+      "maxLength": 300
     },
     "price": {
       "type": "integer"
