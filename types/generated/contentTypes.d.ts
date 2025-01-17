@@ -590,7 +590,7 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     description: Schema.Attribute.Text &
       Schema.Attribute.SetMinMaxLength<{
-        maxLength: 300;
+        maxLength: 500;
         minLength: 10;
       }>;
     images: Schema.Attribute.Media<
